@@ -1,0 +1,23 @@
+{
+  "name": "groovebot",
+  "version": "1.0.0",
+  "description": "A bot for testing Grooveboat",
+  "main": "index.js",
+  "repository": "https://github.com/stevenleeg/groovebot",
+  "author": "Steve Gattuso <steve@stevegattuso.me>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "emojis-list": "^3.0.0",
+    "socket.io-client": "^2.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "scripts": {
+    "start": "babel-node index.js --presets es2015,stage-2"
+  }
+}
